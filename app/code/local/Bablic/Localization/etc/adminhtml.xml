@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the license that is
+ * available through the world-wide-web at this URL:
+ * 
+ * DISCLAIMER
+ * 
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ 
+ */
+-->
+<config>
+    <menu>
+        <localization module="localization" translate="title">
+            <title>Bablic</title>
+            <sort_order>72</sort_order>               
+            <children>
+                
+               
+               <settings module="localization" translate="title">
+                    <title>Settings</title>
+                    <sort_order>1000</sort_order>
+                    <action>adminhtml/system_config/edit/section/localization</action>
+                </settings>
+            </children>
+        </localization>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <localization module="localization" translate="title">
+                                        <title>Balic</title>
+                                        <sort_order>72</sort_order>									
+                                    </localization>								
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <localization module="localization" translate="title">
+                        <title>Bablic</title>
+                        <sort_order>71</sort_order>               
+                        <children>
+                          
+                          
+							 <settings module="localization" translate="title">
+                                <title>Settings</title>
+                                <sort_order>1000</sort_order>
+                            </settings>
+                        </children>
+                    </localization>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

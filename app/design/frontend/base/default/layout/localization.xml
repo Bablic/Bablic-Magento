@@ -1,0 +1,18 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0"> 
+
+<default>
+<reference name="head">
+   <block type="localization/localization" name="localization" template="localization/localization.phtml"/>
+</reference>
+ </default> 
+  <localization_index_index>   
+  <!--  <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="localization/index" name="localization_index" template="localization/index.phtml"/>   
+    </reference> -->  
+  </localization_index_index>   
+</layout>   
+	
