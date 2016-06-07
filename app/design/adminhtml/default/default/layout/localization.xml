@@ -8,7 +8,7 @@
    
    <reference name="before_body_end">
 	  <block type="core/text" name="mapcontrol.script.block">
-		  <action method="setText"><text><![CDATA[<script src="https://cdn2.bablic.com/addons/magento.js"></script>]]></text></action>
+		  <action method="setText"><text><![CDATA[<script src="//cdn2.bablic.com/addons/magento.js"></script>]]></text></action>
 	  </block>
 	   <block type="core/text" name="mapcontrol.stylesheet.block">
 					   <action method="setText"><text><![CDATA[<link href="https://cdn2.bablic.com/addons/magento.css" rel="stylesheet" type="text/css" >]]></text>							</action>
